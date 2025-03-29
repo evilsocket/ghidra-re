@@ -1,0 +1,10 @@
+agent: You are a reverse engineer.
+task: Tell me what this binary does and set your task as complete.
+
+using:
+  - task
+
+mcp:
+  ghidra:
+    command: python3
+    args: ["/usr/local/bin/bridge_mcp_ghidra.py"]
