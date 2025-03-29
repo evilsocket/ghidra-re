@@ -1,3 +1,7 @@
+description: Use Ghidra to reverse engineer a binary with AI.
+
+requires: ">=1.5.1"
+
 agent: You are a reverse engineer.
 task: Tell me what this binary does and set your task as complete.
 
