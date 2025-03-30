@@ -12,5 +12,6 @@ nerve install evilsocket/ghidra-re
 By default it will analyze the currently open binary:
 
 ```bash
-nerve run ghidra-re
+# interactive mode
+nerve run ghidra-re -i 
 ```
