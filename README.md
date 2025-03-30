@@ -13,5 +13,8 @@ By default it will analyze the currently open binary:
 
 ```bash
 # interactive mode
-nerve run ghidra-re -i 
+nerve run ghidra-re -i
+
+# specific task
+nerve run ghidra-re --task 'what is the function sub_00000 about?'
 ```
